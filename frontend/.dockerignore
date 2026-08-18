@@ -1,0 +1,12 @@
+.env
+.env.*
+node_modules/
+dist/
+coverage/
+.pnpm-store/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+*.log
+.git/
+.gitignore

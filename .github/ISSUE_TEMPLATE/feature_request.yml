@@ -1,0 +1,46 @@
+name: Feature request
+description: Propose a focused improvement to AgentOps Studio
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or operator problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the workflow and expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any simpler approaches or workarounds considered.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Primary area
+      options:
+        - Agent integration
+        - Human review workflow
+        - Observability and audit
+        - Frontend experience
+        - API and persistence
+        - Deployment
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and data considerations
+      description: Explain side effects, approval requirements, sensitive data, and failure handling.
+    validations:
+      required: true
